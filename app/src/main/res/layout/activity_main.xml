@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.bulbulhossen.convenientbanner.MainActivity">
+
+        <com.github.siyamed.shapeimageview.BubbleImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/khan"
+            app:siArrowPosition="right"
+            app:siSquare="true" />
+
+
+     <!--   More details : https://github.com/siyamed/android-shape-imageview&lt;!&ndash;&ndash;&gt;-->
+
+        <com.github.siyamed.shapeimageview.RoundedImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/khan"
+            app:siBorderColor="#000"
+            app:siBorderWidth="6dp"
+            app:siRadius="6dp"
+            app:siSquare="true" />
+
+        <com.github.siyamed.shapeimageview.CircularImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/khan"
+            app:siBorderColor="#000"
+            app:siBorderWidth="6dp" />
+
+        <com.github.siyamed.shapeimageview.HeartImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:src="@drawable/trona_pinnacles"
+        app:siBorderWidth="8dp"
+        app:siBorderColor="#000"/>
+
+
+
+
+    </LinearLayout>
+</ScrollView>
