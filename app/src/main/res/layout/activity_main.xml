@@ -17,6 +17,86 @@
         android:paddingTop="@dimen/activity_vertical_margin"
         tools:context="com.bulbulhossen.convenientbanner.MainActivity">
 
+
+
+
+<!--more details : https://github.com/traex/RippleEffect-->
+
+        <com.andexert.library.RippleView
+            android:id="@+id/more"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@+id/more2"
+            android:layout_margin="5dp"
+            app:rv_color="#C6002B"
+            app:rv_zoom="true"
+            app:rv_framerate="30"
+            app:rv_rippleDuration="350"
+            app:rv_ripplePadding="10dp"
+            app:rv_centered="true">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#3A3A3A"
+                android:text="Bulbul"
+                android:textColor="#fff"
+                android:textSize="50sp"
+                android:padding="10dp"
+
+                />
+
+        </com.andexert.library.RippleView>
+
+
+
+
+        <com.andexert.library.RippleView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@+id/more2"
+            android:layout_margin="5dp"
+            app:rv_color="#C6002B"
+            app:rv_zoom="true"
+            app:rv_framerate="30"
+            app:rv_rippleDuration="370"
+            app:rv_ripplePadding="10dp"
+            app:rv_centered="true">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/khan"
+                android:padding="10dp"
+                android:background="@android:color/holo_blue_dark"/>
+
+
+        </com.andexert.library.RippleView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <com.github.siyamed.shapeimageview.BubbleImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
